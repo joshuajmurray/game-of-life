@@ -14,5 +14,8 @@ class Cell
     self.living || false
   end 
 
+  def tick
+
+  end
 
 end
