@@ -14,8 +14,9 @@ describe "Conway's game of life" do
 
   end
 
-  xit 'has a tick method' do
-
+  it 'has a tick method' do
+    game = Game.new
+    expect { game.tick }.to_not raise_error
   end
 
   xit 'the tick method changes the state of the grid' do

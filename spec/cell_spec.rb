@@ -23,10 +23,10 @@ describe "A cell" do
 
   end
 
-  it 'has a tick method' do
-    cell = Cell.new
-    expect { cell.tick }.to_not raise_error
-  end
+  # it 'has a tick method' do
+  #   cell = Cell.new
+  #   expect { cell.tick }.to_not raise_error
+  # end
 
   describe 'after a tick' do
 

@@ -14,8 +14,8 @@ class Cell
     self.living || false
   end 
 
-  def tick
-
-  end
+#   def tick
+# # check cell status
+#   end
 
 end
