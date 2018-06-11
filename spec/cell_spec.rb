@@ -20,10 +20,12 @@ describe "A cell" do
 
   xit 'has neighbors, which is initially an empty array' do
 
+
   end
 
-  xit 'has a tick method' do
-
+  it 'has a tick method' do
+    cell = Cell.new
+    expect { cell.tick }.to_not raise_error
   end
 
   describe 'after a tick' do
