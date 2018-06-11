@@ -3,15 +3,15 @@ class Cell
   attr_reader :living
 
   def alive
-    @alive = true
+    @living = true
   end
 
   def dead
-    @alive = false
+    @living = false
   end
 
   def living?
-    self.living || true
+    self.living || false
   end 
 
 

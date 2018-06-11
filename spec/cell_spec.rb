@@ -8,12 +8,13 @@ describe "A cell" do
 
   it 'is initially alive' do
     cell = Cell.new
+    cell.alive
     expect(cell).to be_living
   end
 
   it 'can die' do
     cell = Cell.new
-    cell.dead()
+    cell.dead
     expect(cell).to_not be_living
    end
 
